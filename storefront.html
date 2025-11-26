@@ -3,75 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stationery Fairy - Your one-stop shop for quality planners, pens, and office supplies">
     <title>Stationery Fairy</title>
-    <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- Internal CSS -->
-    <style>
-        h2 {
-            color: teal;
-            border-bottom: 2px solid #ccc;
-            padding-bottom: 5px;
-        }
-
-        article {
-            margin-bottom: 15px;
-            background-color: #fff8f0;
-            border-left: 4px solid darkorange;
-            padding: 10px;
-        }
-    </style>
 </head>
 <body>
 
-<!-- Header Section -->
 <header>
-    <div>
+    <div class="header-content">
         <img src="https://cdn.dribbble.com/userupload/22171359/file/original-9755dbf846b269ade463fb33f32b97e8.png?resize=752x&vertical=center"
-             alt="Company Logo" width="128" height="128">
-        <!-- Inline CSS example -->
-        <h1 style="text-align: center; color: darkorange">Stationery Fairy</h1>
+             alt="Stationery Fairy Logo" width="128" height="128">
+        <h1>Stationery Fairy</h1>
     </div>
 </header>
 
-<!-- Navigation Bar -->
-<nav>
+<nav role="navigation" aria-label="Main navigation">
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="products.html">Products</a></li>
         <li><a href="cart.html">Shopping Cart</a></li>
         <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
         <li><a href="contact.html">Contact Us</a></li>
     </ul>
 </nav>
 
-<!-- Main Layout -->
 <main>
-    <!-- Section -->
     <section>
         <h2>Current Product Sales</h2>
         <article>
             <h3>50% Off Planners & Calendars</h3>
-            <p>Finish out the year on time and on schedule!</p>
+            <p>Finish out the year on time and on schedule! Perfect for organizing your busy life.</p>
         </article>
         <article>
             <h3>BOGO Pilot G2</h3>
-            <p>Buy 1 Pilot G2 pen, get 1 for free.</p>
+            <p>Buy 1 Pilot G2 pen, get 1 for free. Stock up on your favorite smooth-writing pens!</p>
+        </article>
+        <article>
+            <h3>New Arrival: Washi Tape Collection</h3>
+            <p>Decorate your journals and planners with our vibrant new washi tape designs.</p>
         </article>
     </section>
 
-    <!-- Aside -->
     <aside>
-        <h3>Advertisements</h3>
-        <p>Check out our partner's clothing store</p>
+        <h3>Featured Partner</h3>
+        <div class="ad-box">
+            <p><strong>Fashion Forward</strong></p>
+            <p>Check out our partner's sustainable clothing store for eco-friendly fashion!</p>
+        </div>
+        <div class="ad-box">
+            <p><strong>Newsletter</strong></p>
+            <p>Sign up to get 10% off your first order!</p>
+        </div>
     </aside>
 </main>
 
-<!-- Footer -->
 <footer>
-    <p><a href="terms.html">Terms of Use</a> | <a href="cookies.html">Cookie and Privacy Policy</a> | <a href="copyright.html">Copyright</a></p>
+    <p>
+        <a href="terms.html">Terms of Use</a> |
+        <a href="cookies.html">Cookie and Privacy Policy</a> |
+        <a href="copyright.html">Copyright</a>
+    </p>
+    <p class="copyright">&copy; 2024 Stationery Fairy. All rights reserved.</p>
 </footer>
-</body>
-</html>
